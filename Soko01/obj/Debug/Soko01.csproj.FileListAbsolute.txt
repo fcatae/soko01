@@ -1,0 +1,6 @@
+C:\Users\fcatae\SkyDrive\Code\Sokoban\Ver1\Soko01\Soko01\bin\Soko01.dll.config
+C:\Users\fcatae\SkyDrive\Code\Sokoban\Ver1\Soko01\Soko01\bin\Soko01.dll
+C:\Users\fcatae\SkyDrive\Code\Sokoban\Ver1\Soko01\Soko01\bin\Soko01.pdb
+C:\Users\fcatae\SkyDrive\Code\Sokoban\Ver1\Soko01\Soko01\obj\Debug\Soko01.csprojResolveAssemblyReference.cache
+C:\Users\fcatae\SkyDrive\Code\Sokoban\Ver1\Soko01\Soko01\obj\Debug\Soko01.dll
+C:\Users\fcatae\SkyDrive\Code\Sokoban\Ver1\Soko01\Soko01\obj\Debug\Soko01.pdb

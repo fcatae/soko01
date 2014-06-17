@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sokoban</title>
+    <link href="index.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="container">
+        <canvas id="canvas" width="800" height="600"></canvas>
+        <div id="levelcomplete">Level complete</div>
+    </div>
+
+    <div id="assets">
+        <img id="imgbrick" src="images/brick.png" />
+        <img id="imgegg" src="images/egg.jpg" />
+        <img id="imgface" src="images/face0.png" />
+        <img id="imgfacewow" src="images/face1.png" />
+        <audio id="sndcoins">
+            <source src="audio/coins.mp3" type="audio/mp3">
+        </audio>
+    </div>
+
+    <script src="game.js"></script>
+    <script src="player.js"></script>
+    <script src="map.js"></script>
+    <script src="move.js"></script>
+    <script src="animation.js"></script>
+    <script src="level.js"></script>
+</body>
+</html>
