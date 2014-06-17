@@ -1,0 +1,23 @@
+﻿body {
+    width: 90%;
+    
+    margin: 4%;    
+    text-align: center;
+}
+
+#canvas {
+    border: 1px solid black;
+}
+
+#assets {
+    border: 1px solid red;
+    position: absolute;
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+    overflow: scroll;
+}
+
+#imgegg {
+    transform: rotate(80deg);
+}
