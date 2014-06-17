@@ -10,11 +10,7 @@ window.onload = function () {
 
         context.clearRect(0, 0, canvas.width, canvas.height);
 
-        drawBrick(0, 0);
-        drawBrick(1, 0);
-        drawBrick(2, 0);
-        drawBrick(3, 0);
-        drawBrick(4, 0);
+        map.draw();
 
         drawPlayer(playerX, playerY);
 
@@ -24,6 +20,10 @@ window.onload = function () {
 
 function drawBrick(x, y) {
     drawImage(imgbrick, x, y);
+}
+
+function drawGold(x, y) {
+    drawImage(imggold, x, y);
 }
 
 function drawPlayer(x, y) {
