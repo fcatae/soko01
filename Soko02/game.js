@@ -1,4 +1,5 @@
-﻿
+﻿"use strict";
+
 var context = canvas.getContext("2d");
 
 var playerX;
@@ -13,8 +14,7 @@ window.onload = function () {
         context.clearRect(0, 0, canvas.width, canvas.height);
 
         map.draw();
-
-        drawPlayer(playerX, playerY);
+        player.draw();
 
     }, 100);
 

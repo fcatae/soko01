@@ -76,6 +76,7 @@
     <Content Include="images\gold.png" />
     <Content Include="input.js" />
     <Content Include="map.js" />
+    <Content Include="player.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

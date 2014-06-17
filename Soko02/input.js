@@ -42,7 +42,10 @@ window.addEventListener("keydown", function (e) {
 
     // moeda
     if (next == '$') {
+
         sndcoins.play();
+        player.smile();
+
         map.setAt(px, py, ' ');
         coins--;
 
