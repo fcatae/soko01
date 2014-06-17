@@ -1,13 +1,15 @@
 ﻿
 var context = canvas.getContext("2d");
 
-var playerX = 1;
-var playerY = 1;
+var playerX;
+var playerY;
+var coins;
 
 window.onload = function () {
 
     setInterval(function () {
 
+        //context.fillStyle = "#000000";
         context.clearRect(0, 0, canvas.width, canvas.height);
 
         map.draw();
@@ -24,6 +26,10 @@ function drawBrick(x, y) {
 
 function drawGold(x, y) {
     drawImage(imggold, x, y);
+}
+
+function drawBox(x, y) {
+    drawImage(imgbox, x, y);
 }
 
 function drawPlayer(x, y) {

@@ -5,6 +5,35 @@
 
 }
 
+#container {
+    position: absolute;
+}
+
 #canvas {
     border: 1px solid black;
+    background-color: #d4913f;
+}
+
+#game_screen {
+
+    position: absolute;
+    top: 80px;
+    width: 640px;
+    height: 280px;
+    text-align: center;
+    font-size: 30pt;
+
+    vertical-align: middle;
+    line-height: 280px;
+
+    color: white;    
+    font-family: Calibri;
+    background-color: rgba(0, 0, 0, 0.80);
+    
+    visibility: hidden;
+
+}
+
+#game_screen.visible {
+    visibility: visible;
 }
